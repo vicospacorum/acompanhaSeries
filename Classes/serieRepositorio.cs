@@ -22,7 +22,7 @@ namespace acompanhaSeries
             listaSerie.Add(objeto);
         }
 
-        public List<Serie> List()
+        public List<Serie> Lista()
         {
             return listaSerie;
         }

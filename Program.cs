@@ -75,13 +75,13 @@ namespace acompanhaSeries
             int entradaGenero = int.Parse(Console.ReadLine());
 
             Console.Write("Digite o Título da Série: ");
-            int entradaTitulo = Console.ReadLine();
+            string entradaTitulo = Console.ReadLine();
 
             Console.Write("Digite o Ano de Início da Série: ");
-            int entradaAno = Console.ReadLine();
+            int entradaAno = int.Parse(Console.ReadLine());
 
             Console.Write("Digite a Descrição da Série: ");
-            int entradaDescricao = Console.ReadLine();
+            string entradaDescricao = Console.ReadLine();
 
             Serie novaSerie = new Serie(id: repositorio.ProximoId(),
                                         genero: (Genero)entradaGenero,

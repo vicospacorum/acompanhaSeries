@@ -7,13 +7,14 @@ namespace acompanhaSeries
         Comedia = 3,
         Documentario = 4,
         Drama = 5,
-        Espionagem = 6,
-        Faroeste = 7,
-        Fantasia = 8,
-        Ficcao_Cientifica = 9,
-        Musical = 10,
-        Romance = 11,
-        Suspense = 12,
-        Terros = 13
+        Drama_Policial = 6,
+        Espionagem = 7,
+        Faroeste = 8,
+        Fantasia = 9,
+        Ficcao_Cientifica = 10,
+        Musical = 11,
+        Romance = 12,
+        Suspense = 13,
+        Terror = 14
     }
 }
