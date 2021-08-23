@@ -18,6 +18,7 @@ namespace acompanhaSeries
             this.Genero = genero;
             this.Titulo = titulo;
             this.Ano = ano;
+            this.Descricao = descricao;
             this.Excluido = false;
         }
 
@@ -27,7 +28,8 @@ namespace acompanhaSeries
             retorno += "Gênero: " + this.Genero + Environment.NewLine;
             retorno += "Título: " + this.Titulo + Environment.NewLine;
             retorno += "Descrição: " + this.Descricao + Environment.NewLine;
-            retorno += "Ano de Início: " + this.Ano;
+            retorno += "Ano de Início: " + this.Ano + Environment.NewLine;
+            retorno += "Excluído: " + this.Excluido + Environment.NewLine;
             
             return retorno;
         }
@@ -40,6 +42,11 @@ namespace acompanhaSeries
         public int retornaId()
         {
             return this.Id;
+        }
+
+        public bool retornaExcluido()
+        {
+            return this.Excluido;
         }
 
         public void Excluir()
