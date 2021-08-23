@@ -34,7 +34,7 @@ namespace acompanhaSeries
 
         public Serie RetornaPorId(int id)
         {
-            return listaSerie[id];
+            return listaSerie[id];  
         }
     }
 }
